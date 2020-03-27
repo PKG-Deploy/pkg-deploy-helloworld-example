@@ -1,0 +1,10 @@
+name: pkgdeploy-helloworld
+format: deb
+description: A simple Hello World project to show how PKG Deploy works
+url: https://www.pkgdeploy.com
+license: MIT
+
+install:
+  copy:
+    - source: ./helloworld
+      destination: /usr/bin/helloworld
