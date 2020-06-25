@@ -2,7 +2,8 @@ name: pkgdeploy-helloworld
 format: rpm
 description: A simple Hello World project to show how PKG Deploy works
 url: https://www.pkgdeploy.com
-license: MIT
+license: GPLv3
+maintainer: PKG Deploy Devs <devs@pkgdeploy.com>
 
 install:
   copy:
